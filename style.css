@@ -1,0 +1,12 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional custom styles */
+section h2 {
+  letter-spacing: -0.5px;
+}
+
+button:focus {
+  outline: none;
+}

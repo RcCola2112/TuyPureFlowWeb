@@ -1,0 +1,722 @@
+[2025-11-27 16:25:36] --- Webhook request received ---
+[2025-11-27 16:25:36] SUCCESS: SMS Received! From: +639362695356 | Msg: Heyyyy
+[2025-11-27 16:25:52] --- Webhook request received ---
+[2025-11-27 16:25:52] SUCCESS: SMS Received! From: +639362695356 | Msg: Heyy
+[2025-11-27 16:26:19] --- Webhook request received ---
+[2025-11-27 16:26:19] SUCCESS: SMS Received! From: +639362695356 | Msg: Hey
+[2025-11-27 16:26:54] --- Webhook request received ---
+[2025-11-27 16:26:54] SUCCESS: SMS Received! From: +639362695356 | Msg: Grey
+[2025-11-27 16:34:54] --- Webhook request received ---
+[2025-11-27 16:34:54] SUCCESS: SMS Received! From: +639362695356 | Msg: Heeyy
+[2025-11-27 16:39:08] --- Webhook request received ---
+[2025-11-27 16:39:08] SUCCESS: SMS Received! From: +639362695356 | Msg: Gg
+[2025-11-27 16:43:04] --- Webhook request received ---
+[2025-11-27 16:43:04] SUCCESS: SMS Received! From: +639362695356 | Msg: Drby
+[2025-11-27 16:46:01] --- Webhook request received ---
+[2025-11-27 16:46:01] SUCCESS: SMS Received! From: +639362695356 | Msg: Uwjencs
+[2025-11-27 16:48:00] --- Webhook request received ---
+[2025-11-27 16:48:00] SUCCESS: SMS Received! From: +639362695356 | Msg: Byun
+[2025-11-27 16:51:18] INVALID PAYLOAD: {"deviceId":"Xe5LjEdF1yEcpVaMiEfoS","event":"sms:received","id":"xNEaDPe5Az8WpVTVJ-Y2P","payload":{"message":"Gyn","receivedAt":"2025-11-28T00:51:17.000+08:00","messageId":"6ddd134d","phoneNumber":"+639362695356","simNumber":1},"webhookId":"2oWpCzpdz0f9yIB8-ia6r"}
+[2025-11-27 16:51:18] --- Webhook request received ---
+[2025-11-27 16:51:18] SUCCESS: SMS Received! From: +639362695356 | Msg: Gyn
+[2025-11-27 16:51:28] INVALID PAYLOAD: {"deviceId":"Xe5LjEdF1yEcpVaMiEfoS","event":"sms:received","id":"xNEaDPe5Az8WpVTVJ-Y2P","payload":{"message":"Gyn","receivedAt":"2025-11-28T00:51:17.000+08:00","messageId":"6ddd134d","phoneNumber":"+639362695356","simNumber":1},"webhookId":"2oWpCzpdz0f9yIB8-ia6r"}
+[2025-11-27 16:51:49] INVALID PAYLOAD: {"deviceId":"Xe5LjEdF1yEcpVaMiEfoS","event":"sms:received","id":"xNEaDPe5Az8WpVTVJ-Y2P","payload":{"message":"Gyn","receivedAt":"2025-11-28T00:51:17.000+08:00","messageId":"6ddd134d","phoneNumber":"+639362695356","simNumber":1},"webhookId":"2oWpCzpdz0f9yIB8-ia6r"}
+[2025-11-27 16:52:29] INVALID PAYLOAD: {"deviceId":"Xe5LjEdF1yEcpVaMiEfoS","event":"sms:received","id":"xNEaDPe5Az8WpVTVJ-Y2P","payload":{"message":"Gyn","receivedAt":"2025-11-28T00:51:17.000+08:00","messageId":"6ddd134d","phoneNumber":"+639362695356","simNumber":1},"webhookId":"2oWpCzpdz0f9yIB8-ia6r"}
+[2025-11-27 16:53:50] DB ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u549992181_DB_TuyPureFlow`.`sms_orders`, CONSTRAINT `sms_orders_ibfk_3` FOREIGN KEY (`container_id`) REFERENCES `container` (`container_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-27 16:56:30] DB ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u549992181_DB_TuyPureFlow`.`sms_orders`, CONSTRAINT `sms_orders_ibfk_3` FOREIGN KEY (`container_id`) REFERENCES `container` (`container_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-27 17:01:54] DB ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u549992181_DB_TuyPureFlow`.`sms_orders`, CONSTRAINT `sms_orders_ibfk_3` FOREIGN KEY (`container_id`) REFERENCES `container` (`container_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-27 17:04:54] --- Webhook request received ---
+[2025-11-27 17:04:54] SUCCESS: SMS Received! From: +639105286376 | Msg: Hi
+[2025-11-27 17:04:54] --- Webhook request received ---
+[2025-11-27 17:04:54] SUCCESS: SMS Received! From: +639105286376 | Msg: Hey
+[2025-11-27 17:12:35] DB ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u549992181_DB_TuyPureFlow`.`sms_orders`, CONSTRAINT `sms_orders_ibfk_3` FOREIGN KEY (`container_id`) REFERENCES `container` (`container_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-27 17:34:12] DB ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u549992181_DB_TuyPureFlow`.`sms_orders`, CONSTRAINT `sms_orders_ibfk_3` FOREIGN KEY (`container_id`) REFERENCES `container` (`container_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-27 18:26:04] DB ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u549992181_DB_TuyPureFlow`.`sms_orders`, CONSTRAINT `sms_orders_ibfk_3` FOREIGN KEY (`container_id`) REFERENCES `container` (`container_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[2025-11-27 20:36:18] --- Webhook request received ---
+[2025-11-27 20:36:18] Raw SMS: From=+639362695356 | Msg=Gyn
+[2025-11-27 20:36:18] Invalid SMS format: Gyn
+[2025-11-27 23:36:04] --- Webhook request received ---
+[2025-11-27 23:36:04] Raw SMS: From=+639362695356 | Msg=Gyn
+[2025-11-27 23:36:04] Invalid SMS format: Gyn
+[2025-11-28 03:21:03] --- Webhook request received ---
+[2025-11-28 03:21:03] --- Webhook request received ---
+[2025-11-28 03:21:03] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:21:03] SUCCESS: SMS Received! From: TNT | Msg: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:21:03] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:21:03] --- Webhook request received ---
+[2025-11-28 03:21:03] SUCCESS: SMS Received! From: TNT | Msg: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:21:03] --- Webhook request received ---
+[2025-11-28 03:21:03] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:21:03] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:21:08] --- Webhook request received ---
+[2025-11-28 03:21:08] SUCCESS: SMS Received! From: TNT | Msg: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:21:09] --- Webhook request received ---
+[2025-11-28 03:21:09] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:21:09] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:22:08] --- Webhook request received ---
+[2025-11-28 03:22:08] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:22:08] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:22:08] --- Webhook request received ---
+[2025-11-28 03:22:08] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:22:08] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:22:09] --- Webhook request received ---
+[2025-11-28 03:22:09] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:22:09] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:22:36] --- Webhook request received ---
+[2025-11-28 03:22:36] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:22:36] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:22:36] --- Webhook request received ---
+[2025-11-28 03:22:36] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:22:36] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:22:36] --- Webhook request received ---
+[2025-11-28 03:22:36] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:22:36] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:24:54] --- Webhook request received ---
+[2025-11-28 03:24:54] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:24:54] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:24:54] --- Webhook request received ---
+[2025-11-28 03:24:54] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:24:54] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:24:54] --- Webhook request received ---
+[2025-11-28 03:24:54] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:24:54] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:26:19] --- Webhook request received ---
+[2025-11-28 03:26:19] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:26:19] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:26:19] --- Webhook request received ---
+[2025-11-28 03:26:19] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:26:19] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:26:19] --- Webhook request received ---
+[2025-11-28 03:26:19] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:26:19] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:29:01] --- Webhook request received ---
+[2025-11-28 03:29:01] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:29:01] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:29:01] --- Webhook request received ---
+[2025-11-28 03:29:01] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:29:01] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:29:01] --- Webhook request received ---
+[2025-11-28 03:29:01] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:29:01] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:35:00] --- Webhook request received ---
+[2025-11-28 03:35:00] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:35:00] --- Webhook request received ---
+[2025-11-28 03:35:00] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:35:00] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:35:00] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:35:00] --- Webhook request received ---
+[2025-11-28 03:35:00] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:35:00] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:47:06] --- Webhook request received ---
+[2025-11-28 03:47:06] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:47:06] --- Webhook request received ---
+[2025-11-28 03:47:06] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 03:47:06] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:47:06] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 03:47:06] --- Webhook request received ---
+[2025-11-28 03:47:06] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 03:47:06] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 04:09:15] --- Webhook request received ---
+[2025-11-28 04:09:15] --- Webhook request received ---
+[2025-11-28 04:09:15] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 04:09:15] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 04:09:15] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 04:09:15] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 04:09:15] --- Webhook request received ---
+[2025-11-28 04:09:15] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 04:09:15] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 04:36:09] --- Webhook request received ---
+[2025-11-28 04:36:09] Raw SMS: From=+639362695356 | Msg=Gyn
+[2025-11-28 04:36:09] Invalid SMS format: Gyn
+[2025-11-28 04:52:28] --- Webhook request received ---
+[2025-11-28 04:52:28] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 04:52:28] --- Webhook request received ---
+[2025-11-28 04:52:28] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 04:52:28] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 04:52:28] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 04:52:28] --- Webhook request received ---
+[2025-11-28 04:52:28] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 04:52:28] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 06:18:12] --- Webhook request received ---
+[2025-11-28 06:18:12] --- Webhook request received ---
+[2025-11-28 06:18:12] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 06:18:12] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 06:18:12] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 06:18:12] --- Webhook request received ---
+[2025-11-28 06:18:12] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 06:18:12] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 06:18:12] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 09:09:13] --- Webhook request received ---
+[2025-11-28 09:09:13] SUCCESS: SMS Received! From: DITO | Msg: Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 09:09:13] --- Webhook request received ---
+[2025-11-28 09:09:13] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 09:09:31] --- Webhook request received ---
+[2025-11-28 09:09:31] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 09:09:43] --- Webhook request received ---
+[2025-11-28 09:09:43] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 09:09:43] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 09:09:43] --- Webhook request received ---
+[2025-11-28 09:09:43] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 09:09:43] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 09:09:43] --- Webhook request received ---
+[2025-11-28 09:09:43] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 09:09:43] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 09:36:18] --- Webhook request received ---
+[2025-11-28 09:36:18] Raw SMS: From=+639362695356 | Msg=Gyn
+[2025-11-28 09:36:18] Invalid SMS format: Gyn
+[2025-11-28 13:00:58] --- Webhook request received ---
+[2025-11-28 13:00:58] SUCCESS: SMS Received! From: +639391065701 | Msg: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:00:58] --- Webhook request received ---
+[2025-11-28 13:00:58] --- Webhook request received ---
+[2025-11-28 13:00:58] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:00:58] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:00:58] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:00:58] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:00:58] --- Webhook request received ---
+[2025-11-28 13:00:58] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 130115
+[2025-11-28 13:01:09] --- Webhook request received ---
+[2025-11-28 13:01:09] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:01:09] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:01:09] --- Webhook request received ---
+[2025-11-28 13:01:09] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:01:09] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:02:01] --- Webhook request received ---
+[2025-11-28 13:02:01] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:02:01] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:02:01] --- Webhook request received ---
+[2025-11-28 13:02:01] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:02:01] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:02:45] --- Webhook request received ---
+[2025-11-28 13:02:45] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:02:45] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:02:46] --- Webhook request received ---
+[2025-11-28 13:02:46] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:02:46] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:04:10] --- Webhook request received ---
+[2025-11-28 13:04:10] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:04:10] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:04:10] --- Webhook request received ---
+[2025-11-28 13:04:10] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:04:10] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:08:02] --- Webhook request received ---
+[2025-11-28 13:08:02] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:08:02] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:08:02] --- Webhook request received ---
+[2025-11-28 13:08:02] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:08:02] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:17:15] --- Webhook request received ---
+[2025-11-28 13:17:15] --- Webhook request received ---
+[2025-11-28 13:17:15] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:17:15] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:17:15] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:17:15] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:28:25] --- Webhook request received ---
+[2025-11-28 13:28:25] --- Webhook request received ---
+[2025-11-28 13:28:25] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:28:25] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:28:25] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:28:25] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:49:49] --- Webhook request received ---
+[2025-11-28 13:49:49] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 13:49:49] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 13:49:49] --- Webhook request received ---
+[2025-11-28 13:49:49] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 13:49:49] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 14:14:20] --- Webhook request received ---
+[2025-11-28 14:14:20] Raw SMS: From=TNT | Msg=Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 14:14:20] --- Webhook request received ---
+[2025-11-28 14:14:20] Invalid SMS format: Hanggang July 31 mag-text ng ANIBERSAYA to 5858 para magka-TNT Anibersaya Raffle entries sa pagbili ng offer na ito at manalo ng TOYOTA TAMARAW, IPHONES, atbp.
+[2025-11-28 14:14:20] Raw SMS: From=TNT | Msg=28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 14:14:20] Invalid SMS format: 28Nov 11:20: TIKTOK SAYA 50 loaded to 639105286376 from XXXXXXXX7438. Ref:EVCKS367KOGF. Use Smart App for the best promos & deals!
+[2025-11-28 14:14:20] --- Webhook request received ---
+[2025-11-28 14:14:20] Raw SMS: From=TNT | Msg=Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 14:14:20] Invalid SMS format: Tuloy ang Saya! May UNLI TikTok + 3 GB + Unli Calls & Texts ka na with TIKTOK SAYA 50 for 3 days.
+[2025-11-28 14:50:02] --- Webhook request received ---
+[2025-11-28 14:50:02] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 14:50:02] --- Webhook request received ---
+[2025-11-28 14:50:02] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 14:50:02] --- Webhook request received ---
+[2025-11-28 14:50:02] SUCCESS: SMS Received! From: BPI | Msg: Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 14:50:25] --- Webhook request received ---
+[2025-11-28 14:50:25] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 14:51:05] --- Webhook request received ---
+[2025-11-28 14:51:05] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 14:51:31] --- Webhook request received ---
+[2025-11-28 14:51:31] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 14:53:20] --- Webhook request received ---
+[2025-11-28 14:53:20] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 14:57:13] --- Webhook request received ---
+[2025-11-28 14:57:13] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 14:57:13] --- Webhook request received ---
+[2025-11-28 14:57:13] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 14:57:13] --- Webhook request received ---
+[2025-11-28 14:57:13] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 15:03:05] --- Webhook request received ---
+[2025-11-28 15:03:05] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 15:13:32] --- Webhook request received ---
+[2025-11-28 15:13:32] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 15:14:05] --- Webhook request received ---
+[2025-11-28 15:14:05] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 15:25:10] --- Webhook request received ---
+[2025-11-28 15:25:10] --- Webhook request received ---
+[2025-11-28 15:25:10] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 15:25:10] Raw SMS: From=+639362695356 | Msg=Gyn
+[2025-11-28 15:25:10] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 15:25:10] Invalid SMS format: Gyn
+[2025-11-28 15:25:11] --- Webhook request received ---
+[2025-11-28 15:25:11] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 15:25:11] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 15:35:31] --- Webhook request received ---
+[2025-11-28 15:35:31] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 15:57:29] --- Webhook request received ---
+[2025-11-28 15:57:29] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 16:19:20] --- Webhook request received ---
+[2025-11-28 16:19:20] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 17:03:44] --- Webhook request received ---
+[2025-11-28 17:03:44] Raw SMS: From=+639391065701 | Msg=Your OTP is: 130115
+[2025-11-28 17:03:44] Invalid SMS format: Your OTP is: 130115
+[2025-11-28 17:03:44] --- Webhook request received ---
+[2025-11-28 17:03:44] Raw SMS: From=+639391065701 | Msg=Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 17:03:44] Invalid SMS format: Setup: cache-flow-t8da.vercel.app/setup-account?token=wn2k5lh4jy83b0tp2k3fgj
+[2025-11-28 19:45:04] --- Webhook request received ---
+[2025-11-28 19:45:04] SUCCESS: SMS Received! From: +639367948041 | Msg: Hoy
+[2025-11-28 19:45:04] --- Webhook request received ---
+[2025-11-28 19:45:04] Raw SMS: From=BPI | Msg=Boost your points and unlock perks from BPI Rewards! Earn points when you pay via QR or pay bills with the VYBE by BPI or BPI app. Discover MORE ways to earn points when you visit the BPI Rewards page on the BPI website!
+
+Text STOP to 09221101742 to unsubscribe.
+[2025-11-28 19:45:04] --- Webhook request received ---
+[2025-11-28 19:45:04] Raw SMS: From=DITO | Msg=Extra data para sa final push bago ang holiday chill!
+
+Enjoy 5GB all-access data valid for 7 days, for P39 only!
+
+Tap the JUST FOR YOU section in your DITO App now!
+[2025-11-28 19:45:04] --- Webhook request received ---
+[2025-11-28 19:45:04] Raw SMS: From=+639367948041 | Msg=Hoy
+[2025-11-28 19:45:04] Invalid SMS format: Hoy
+[2025-11-28 19:45:14] --- Webhook request received ---
+[2025-11-28 19:45:14] Raw SMS: From=+639367948041 | Msg=Hoy
+[2025-11-28 19:45:14] Invalid SMS format: Hoy
+[2025-11-28 19:45:35] --- Webhook request received ---
+[2025-11-28 19:45:35] Raw SMS: From=+639367948041 | Msg=Hoy
+[2025-11-28 19:45:35] Invalid SMS format: Hoy
+[2025-11-28 19:48:35] --- Webhook request received ---
+[2025-11-28 19:48:35] SUCCESS: SMS Received! From: +639367948041 | Msg: 09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:48:35] --- Webhook request received ---
+[2025-11-28 19:48:35] Raw SMS: From=+639367948041 | Msg=09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:48:55] --- Webhook request received ---
+[2025-11-28 19:48:55] Raw SMS: From=+639367948041 | Msg=09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:48:57] --- Webhook request received ---
+[2025-11-28 19:48:57] Raw SMS: From=+639367948041 | Msg=Hoy
+[2025-11-28 19:48:57] Invalid SMS format: Hoy
+[2025-11-28 19:49:50] --- Webhook request received ---
+[2025-11-28 19:49:50] Raw SMS: From=+639367948041 | Msg=09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:50:38] --- Webhook request received ---
+[2025-11-28 19:50:38] Raw SMS: From=+639367948041 | Msg=09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:51:38] --- Webhook request received ---
+[2025-11-28 19:51:38] Raw SMS: From=+639367948041 | Msg=Hoy
+[2025-11-28 19:51:38] Invalid SMS format: Hoy
+[2025-11-28 19:51:58] --- Webhook request received ---
+[2025-11-28 19:51:58] Raw SMS: From=+639367948041 | Msg=09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:54:53] --- Webhook request received ---
+[2025-11-28 19:54:53] Raw SMS: From=+639367948041 | Msg=09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 19:56:58] SUCCESS (DB INSERT): Saved SMS from +639367948041: 'Hoy'
+[2025-11-28 19:58:52] --- Webhook request received ---
+[2025-11-28 19:58:52] SUCCESS: SMS Received! From: +639367948041 | Msg: Po?
+[2025-11-28 19:58:52] SUCCESS (DB INSERT): Saved SMS from +639367948041: 'Po?'
+[2025-11-28 20:53:11] --- Webhook request received ---
+[2025-11-28 20:53:11] SUCCESS: SMS Received! From: +639367948041 | Msg: Hi
+[2025-11-28 20:59:18] --- Webhook request received ---
+[2025-11-28 20:59:18] SUCCESS: SMS Received! From: +639367948041 | Msg: Need 5 gallons water
+[2025-11-28 21:34:34] --- Webhook request received ---
+[2025-11-28 21:34:34] SUCCESS: SMS Received! From: +639367948041 | Msg: Need 5 gallons water
+[2025-11-28 21:49:26] --- Webhook request received ---
+[2025-11-28 21:49:26] SUCCESS: SMS Received! From: +639367948041 | Msg: Need 5 gallons water
+[2025-11-28 21:57:00] --- Webhook request received ---
+[2025-11-28 21:57:00] SUCCESS: SMS Received! From: +639367948041 | Msg: 09454566364
+container_type_id 2
+refill: 3
+[2025-11-28 21:58:34] --- Webhook request received ---
+[2025-11-28 21:58:34] SUCCESS: SMS Received! From: +639367948041 | Msg: 09454566364 
+Container Type: 2
+Quantity: 5
+[2025-11-29 02:33:08] --- Webhook request received ---
+[2025-11-29 02:33:08] SUCCESS: SMS Received! From: TNT | Msg:  Never run out of data. Manage your subscriptions and check out the Smart App for latest offers and MORE!
+[2025-11-29 02:33:08] --- Webhook request received ---
+[2025-11-29 02:33:08] SUCCESS: SMS Received! From: TNT | Msg: May 50 MB ka na lang sa Open Access Data mo.                                                                                                                   
+[2025-11-29 02:48:25] --- Webhook request received ---
+[2025-11-29 02:48:25] SUCCESS: SMS Received! From: DITO | Msg: Your friends and family can switch to DITO while keeping their numbers through Mobile Number Portability (MNP) for free, pursuant to R.A.11202.
+
+This is brought to you in cooperation with Telecommunications Connectivity Inc. (TCI), a joint venture company of DITO, Globe, and Smart. For details visit tcimnp.com.ph.
+
+[2025-11-29 03:23:55] --- Webhook request received ---
+[2025-11-29 03:23:55] SUCCESS: SMS Received! From: DITO | Msg: Get more when you Live It, Play It, or Work It!
+
+Hindi lang 7GB App Booster Access + 1GB high-speed data ang mae-enjoy mo, may BONUS 1GB ka pa, valid for 3 days, all for just P50!
+
+Get it in the JUST FOR YOU section on the DITO App now!
+
+Per DTI Fair Trade Permit No. FTEB-235697, Series of 2025.
+[2025-11-29 05:50:39] --- Webhook request received ---
+[2025-11-29 05:50:39] SUCCESS: SMS Received! From: +639391065701 | Msg: Good Day! This is CacheFlow. We registered your account as our member. Please fill out this link to set up your credentials: cache-flow-t8da.vercel.app/setup-account?token=dp4oqfk3j4gnuow9t7wrv9
+
+Note: This link is only available for one hour. Thank you for trusting us! If you need help, don't hesitate to contact us at cacheflow4102@gmail.com
+[2025-11-29 05:50:39] --- Webhook request received ---
+[2025-11-29 05:50:39] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 809247
+[2025-11-29 05:51:01] --- Webhook request received ---
+[2025-11-29 05:51:01] SUCCESS: SMS Received! From: +639391065701 | Msg: Good Day! This is CacheFlow. We registered your account as our member. Please fill out this link to set up your credentials: cache-flow-t8da.vercel.app/setup-account?token=0le3358qag2jn017akymwup
+
+Note: This link is only available for one hour. Thank you for trusting us! If you need help, don't hesitate to contact us at cacheflow4102@gmail.com
+[2025-11-29 05:51:01] --- Webhook request received ---
+[2025-11-29 05:51:01] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 658213
+[2025-11-29 06:15:04] --- Webhook request received ---
+[2025-11-29 06:15:04] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 726580
+[2025-11-29 06:25:59] --- Webhook request received ---
+[2025-11-29 06:25:59] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 435492
+[2025-11-29 06:25:59] --- Webhook request received ---
+[2025-11-29 06:25:59] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 900539
+[2025-11-29 06:26:00] --- Webhook request received ---
+[2025-11-29 06:26:00] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 596976
+[2025-11-29 06:26:01] --- Webhook request received ---
+[2025-11-29 06:26:01] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 662242
+[2025-11-29 06:26:01] --- Webhook request received ---
+[2025-11-29 06:26:01] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 257455
+[2025-11-29 06:26:03] --- Webhook request received ---
+[2025-11-29 06:26:03] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 822092
+[2025-11-29 06:26:03] --- Webhook request received ---
+[2025-11-29 06:26:03] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 817567
+[2025-11-29 06:26:04] --- Webhook request received ---
+[2025-11-29 06:26:04] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 871294
+[2025-11-29 06:35:25] --- Webhook request received ---
+[2025-11-29 06:35:25] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 796912
+[2025-11-29 06:35:25] --- Webhook request received ---
+[2025-11-29 06:35:25] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 124241
+[2025-11-29 06:36:07] --- Webhook request received ---
+[2025-11-29 06:36:07] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 497953
+[2025-11-29 07:03:46] --- Webhook request received ---
+[2025-11-29 07:03:46] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 485196
+[2025-11-29 07:03:47] --- Webhook request received ---
+[2025-11-29 07:03:47] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 947779
+[2025-11-29 07:04:52] --- Webhook request received ---
+[2025-11-29 07:04:52] SUCCESS: SMS Received! From: +639391065701 | Msg: Your OTP is: 441760
+[2025-11-29 08:15:46] --- Webhook request received ---
+[2025-11-29 08:15:46] SUCCESS: SMS Received! From: TNT | Msg:  Stay always connected! Check your balance regularly and stay up-to-date with the latest offers via the Smart App!
+[2025-11-29 08:15:46] --- Webhook request received ---
+[2025-11-29 08:15:46] SUCCESS: SMS Received! From: TNT | Msg: You're trying to access sites not included in your promo OR haven't subscribed to one yet.                                                                     
+[2025-11-29 08:24:37] --- Webhook request received ---
+[2025-11-29 08:24:37] SUCCESS: SMS Received! From: TNT | Msg: May chance kang manalo ng Php 15,000, Php 25,000, o 25 GB ngayong Nov 28 - Dec 4 sa TNT Surepresa Raffle!
+
+Para makasali: Text "SUREPRESA" to 5858 at abangan ang confirmation. Isang beses lang ito itetext.
+
+Para makakuha ng raffle entries: Load Saya All 99 for 6 raffle entries.
+
+Sa pag-text nito, sumasang-ayon ka at tinatanggap mo ang T&Cs at Privacy Notice ng promo.
+For more info, visit the Surepresa page sa TNTph website.
+[2025-11-29 08:45:59] --- Webhook request received ---
+[2025-11-29 08:45:59] SUCCESS: SMS Received! From: TNT | Msg: Naubos na ang Open Access Data mo.                                                                                                                             
+[2025-11-29 08:45:59] --- Webhook request received ---
+[2025-11-29 08:45:59] SUCCESS: SMS Received! From: TNT | Msg:  Para hindi maubusan ng data, download the Smart App for offers na exclusive for you. Kulang sa budget? May TNT Utang Na Load! Dial *5623# now!
+[2025-11-29 11:35:04] --- Webhook request received ---
+[2025-11-29 11:35:04] SUCCESS: SMS Received! From: DITO | Msg: Your friends and family can switch to DITO while keeping their numbers through Mobile Number Portability (MNP) for free, pursuant to R.A.11202.
+
+This is brought to you in cooperation with Telecommunications Connectivity Inc. (TCI), a joint venture company of DITO, Globe, and Smart. For details visit tcimnp.com.ph.
+
+[2025-11-29 13:51:38] --- Webhook request received ---
+[2025-11-29 13:51:38] SUCCESS: SMS Received! From: DITO | Msg: I-enjoy ang weekend with DITO!
+
+Get DATA 50 for only P39 this weekend and enjoy data to binge-watch all your favorite shows, valid for 7 days or other exclusive offers.
+
+Visit the JUST FOR YOU section on the DITO App to avail now!
+[2025-11-29 13:51:38] --- Webhook request received ---
+[2025-11-29 13:51:38] SUCCESS: SMS Received! From: DITO | Msg: It's been a while!
+
+Reconnect with TODO DATA 30 - 30GB + unli calls & texts.
+
+Just tap JUST FOR YOU in the DITO App and avail now!
+
+[2025-11-30 08:06:19] --- Webhook request received ---
+[2025-11-30 08:06:19] SUCCESS: SMS Received! From: TNT | Msg: You're trying to access sites not included in your promo OR haven't subscribed to one yet.                                                                     
+[2025-11-30 08:06:19] --- Webhook request received ---
+[2025-11-30 08:06:19] SUCCESS: SMS Received! From: DITO | Msg: Maaari nang lumipat ang iyong kapamilya at kaibigan sa DITO na hindi nagpapalit ng number sa tulong ng Mobile Number Portability (MNP), ayon sa RA 11202. Libre ito.
+
+Ito ay hatid sa inyo ng Telecommunications Connectivity Inc. (TCI), isang joint venture ng DITO, Globe, at Smart. Para sa iba pang detalye, bisitahin ang tcimnp.com.ph.
+[2025-11-30 08:06:19] --- Webhook request received ---
+[2025-11-30 08:06:19] SUCCESS: SMS Received! From: TNT | Msg:  Stay always connected! Check your balance regularly and stay up-to-date with the latest offers via the Smart App!
+[2025-11-30 13:24:11] --- Webhook request received ---
+[2025-11-30 13:24:11] SUCCESS: SMS Received! From: +639367948041 | Msg: 09197511005
+Container Type: 2 
+Quantity: 5
+[2025-11-30 13:24:30] --- Webhook request received ---
+[2025-11-30 13:24:30] SUCCESS: SMS Received! From: +639367948041 | Msg: 09197511005
+Container Type: 2 
+Quantity: 5
+[2025-11-30 16:50:06] --- Webhook request received ---
+[2025-11-30 16:50:06] SUCCESS: SMS Received! From: DITORewards | Msg: You have 0.50 DITO Points that will expire this month! These points are valid until 12/31/2025.
+
+Go to your DITO APP to redeem exciting offers and rewards. https://app.dito.ph/Rewards
+[2025-12-01 02:21:55] --- Webhook request received ---
+[2025-12-01 02:21:55] SUCCESS: SMS Received! From: TNT | Msg: May 60 minutes ka na lang sa Unli Calls mo.                                                                                                                    
+[2025-12-01 02:21:56] --- Webhook request received ---
+[2025-12-01 02:21:56] SUCCESS: SMS Received! From: TNT | Msg: May 60 minutes ka na lang sa Unli Texts mo.                                                                                                                    
+[2025-12-01 02:21:56] --- Webhook request received ---
+[2025-12-01 02:21:56] SUCCESS: SMS Received! From: TNT | Msg:  Always stay connected. Check out the Smart App for Promo Load, Rewards, latest offers and MORE!
+[2025-12-01 02:21:56] --- Webhook request received ---
+[2025-12-01 02:21:56] SUCCESS: SMS Received! From: TNT | Msg: May 60 minutes ka na lang sa FREE UNLI TIKTOK ARAW-ARAW mo.                                                                                                    
+[2025-12-01 02:21:57] --- Webhook request received ---
+[2025-12-01 02:21:57] SUCCESS: SMS Received! From: TNT | Msg:  Never run out of data. Manage your subscriptions and check out the Smart App for latest offers and MORE!
+[2025-12-01 03:22:49] --- Webhook request received ---
+[2025-12-01 03:22:49] SUCCESS: SMS Received! From: TNT | Msg: Nag-expire na ang FREE UNLI TIKTOK ARAW-ARAW mo.                                                                                                               
+[2025-12-01 03:22:49] --- Webhook request received ---
+[2025-12-01 03:22:49] --- Webhook request received ---
+[2025-12-01 03:22:49] SUCCESS: SMS Received! From: TNT | Msg: Nag-expire na ang Unli Calls mo.                                                                                                                               
+[2025-12-01 03:22:49] SUCCESS: SMS Received! From: TNT | Msg:  Tuloy ang Saya! Load SAYA ALL 99 sa Smart App para UNLI ang fave apps mo at may 6 GB ka pa! Kulang sa budget? May TNT Utang Na Load! Dial *5623# now!
+[2025-12-01 03:22:49] --- Webhook request received ---
+[2025-12-01 03:22:49] SUCCESS: SMS Received! From: TNT | Msg:  Tuloy ang Saya! Load SAYA ALL 99 sa Smart App para UNLI ang fave apps mo at may 6 GB ka pa! Kulang sa budget? May TNT Utang Na Load! Dial *5623# now!
+[2025-12-01 03:22:51] --- Webhook request received ---
+[2025-12-01 03:22:51] SUCCESS: SMS Received! From: TNT | Msg: Nag-expire na ang Unli Texts mo.                                                                                                                               
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg: 1/2 Hanggang Jan 1, 2026, may Surepresa Raffle tayo! Get a chance to win weekly cash prizes & a grand prize of 2.5 MILLION PESOS. Text SUREPRESA to 5858 to join
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: SMARTLoad | Msg: 01/12 18:13: P185.00 loaded to 09105286376 from xxxxxxxx9415 for 1 year.Ref:CL156I0KTR.
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg: Your regular load is low on balance. Add Regular Load NOW to continue enjoying our promos and services.                                                        
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg:  Stay always connected! Check your balance regularly and stay up-to-date with the latest offers via the Smart App!
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg: 2/2 & load qualified offers to get entries! By texting, you're agreeing to the promo's T&C & Privacy Notice. Visit Surepresa page sa TNTph website for more info
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: SMARTLoad | Msg: Stay always connected! Check your balance regularly and stay up-to-date with the latest offers via the Smart App
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg: Tuloy ang Saya! May UNLI DATA ka na with UNLI 5G w/ NON-STOP DATA 185 for 7 days. Only one active subscription allowed at a time.
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: SmartApp | Msg: You earned 9.25 GigaPoints on your promo purchase! Simple. Easy. Smart. Thats the Smart App!
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg: You're trying to access sites not included in your promo OR haven't subscribed to one yet.                                                                     
+[2025-12-01 10:13:23] --- Webhook request received ---
+[2025-12-01 10:13:23] SUCCESS: SMS Received! From: TNT | Msg:  Stay always connected! Check your balance regularly and stay up-to-date with the latest offers via the Smart App!
+[2025-12-02 05:23:04] --- Webhook request received ---
+[2025-12-02 05:23:04] SUCCESS: SMS Received! From: TNT | Msg: KaTropa, it's that wonderful time of the year na gusto mong laging updated ang friends at family mo! Siguraduhing konektado ang lahat with Smart Home WiFi's UNLI P1299 - maeenjoy mo ang unlimited data for 30 days.
+
+Wala ka pang Smart Home WiFi? Bili na sa Smart Online Store for as low as P795.
+[2025-12-02 07:22:10] --- Webhook request received ---
+[2025-12-02 07:22:10] SUCCESS: SMS Received! From: DITO | Msg: FLASH DEAL: 70GB, 7 DAYS, FOR ONLY P70!
+
+Miss ka na namin, kaya eto ang exclusive offer para sa'yo! Mag-load lang ng P70 at pwede mo nang ma-enjoy ang TODO DATA 10. Ano pa ang inaantay mo? Visit the DITO App at mag load na!
+
+[2025-12-03 07:54:22] --- Webhook request received ---
+[2025-12-03 07:54:22] SUCCESS: SMS Received! From: +639684987414 | Msg: deal tau? ipapanalo kita 15k basta cash in ka sa link ku 100? ikaw din bahala sa akin pag nawidraw muna ang panalo mo? reply ka YES sa fb page ku, limited slot at offer lang po itu.
+
+Fb page: gtclubczania11
+
+naka swimsuit na green maikli buhok,  background ko sa dagat
+&&&
+[2025-12-03 17:40:23] --- Webhook request received ---
+[2025-12-03 17:40:23] SUCCESS: SMS Received! From: NDRRMC | Msg: NDRRMC(1:26AM,4Dec25) Nagaganap ang mahinang pagputok sa Bulkang Taal na nagsimula kaninang 12:59 AM. Sumunod sa abiso ng awtoridad.
+[2025-12-03 21:30:55] --- Webhook request received ---
+[2025-12-03 21:30:55] SUCCESS: SMS Received! From: DITO | Msg: Hi! Your free WE GOT YOU DITO 1GB has expired. To avail of our exclusive promos and offers, log in to your DITO App now. Thank you!
+[2025-12-04 05:04:22] --- Webhook request received ---
+[2025-12-04 05:04:22] SUCCESS: SMS Received! From: TNT | Msg: KaTropa, may pa CASHBACK kami para sa inyo! 
+
+Magload na ng TNT ALL DATA 99 5x sa GCash para makakuha ng P20 CASHBACK via GCash Credits!
+
+Load na! DTI241656
+[2025-12-05 10:47:48] --- Webhook request received ---
+[2025-12-05 10:47:48] SUCCESS: SMS Received! From: KING.PH | Msg: P12,500 MAX BONUS SA FIRST 3 DEPOSITS MO? SOBRANG SULIT!
+
+Plus may JILI Frosty Reels pa with Big Rewards. Play na sa PAGCOR accredited site: free.king.ph/K125
+[2025-12-07 02:29:05] --- Webhook request received ---
+[2025-12-07 02:29:05] SUCCESS: SMS Received! From: TNT | Msg: May dagdag na load inclusions para sa'yo. 
+
+You get total of 24 GB and Unli Allnet Calls & Texts! That's (FREE 16 GB ALL ACCESS DATA for 2 days from us) when you buy DOBLE GIGA STORIES+ 75 with 2 GB + 2 GB/day for Facebook, TikTok, IG & MORE + UNLI ALLNET CALLS & TEXTS!
+
+For TODAY only! Load via Smart App or *123#
+[2025-12-07 05:06:48] --- Webhook request received ---
+[2025-12-07 05:06:48] SUCCESS: SMS Received! From: DITO | Msg: Get more when you Live It, Play It, or Work It!
+
+Hindi lang 7GB App Booster Access + 1GB high-speed data ang mae-enjoy mo, may BONUS 1GB ka pa, valid for 3 days, all for just P50!
+
+Get it in the JUST FOR YOU section on the DITO App now!
+
+Per DTI Fair Trade Permit No. FTEB-235697, Series of 2025.
+[2025-12-08 01:18:25] --- Webhook request received ---
+[2025-12-08 01:18:25] SUCCESS: SMS Received! From: TM | Msg: Ang paborito ng mga studyante na ALLSURF99 ay nasa TM EasyRaket na! Sa bawat load na mabenta, may 2% cashback ka agad! Tara na at umpisahan ang pagkita. 
+
+Hindi pa registered? I-download ang GlobeOne at hanapin ang TM EasyRaket! No advisories? Text OFF to 2686 for free.
+[2025-12-08 02:23:40] --- Webhook request received ---
+[2025-12-08 02:23:40] SUCCESS: SMS Received! From: DITO | Msg: Hi! Don't miss out on the DITO Christmas Three Promo!
+
+The more you buy, the more gifts you'll receive--up to 3 rewards kapag na-hit mo ang Goal 1, 2, at 3!
+
+You are just 150 away to hit your Goal 1!
+
+Goal 1: FREE data
+Goal 2: DITO Points na pwede mong gamitin to buy app subscriptions o pang-redeem ng items sa Rewards page
+Goal 3: Mas maraming DITO Points para bigger ang redemptions mo!
+
+Only select promos availed via the DITO App counted.
+DTI Fair Trade Permit No. FTEB-241294 Series of 2025.
+
+Stop receiving updates by editing your DITO APP notification settings anytime.
+[2025-12-08 09:14:21] --- Webhook request received ---
+[2025-12-08 09:14:21] SUCCESS: SMS Received! From: TNT | Msg: May 60 minutes ka na lang para gamitin ang UNLI 5G DATA mo.                                                                                                    
+[2025-12-08 09:14:21] --- Webhook request received ---
+[2025-12-08 09:14:21] SUCCESS: SMS Received! From: TNT | Msg: May 60 minutes ka na lang sa NON-STOP DATA mo.                                                                                                                 
+[2025-12-08 09:14:21] --- Webhook request received ---
+[2025-12-08 09:14:21] SUCCESS: SMS Received! From: TNT | Msg:  Never run out of data. Manage your subscriptions and check out the Smart App for latest offers and MORE!
+[2025-12-08 09:49:35] --- Webhook request received ---
+[2025-12-08 09:49:35] SUCCESS: SMS Received! From: GCash | Msg: You received P126.72 from 7 Eleven CI. New balance is P187.08 12-08-25 5:49PM. Ref no. 5035542378698.
+[2025-12-08 09:52:40] --- Webhook request received ---
+[2025-12-08 09:52:40] SUCCESS: SMS Received! From: TNT | Msg: Sorry for the inconvenience. Service unavailable at this time (transaction not charged). RC:1422
+[2025-12-08 09:53:29] --- Webhook request received ---
+[2025-12-08 09:53:29] SUCCESS: SMS Received! From: GCash | Msg: Your refund of P185.00 from Smart GigaLife has been successfully credited to your Gcash wallet on 12-08-25 05:53:20 PM. Ref. No. 516323594
+[2025-12-08 09:55:00] --- Webhook request received ---
+[2025-12-08 09:55:00] SUCCESS: SMS Received! From: GCash | Msg: Your refund of P185.00 from Smart GigaLife has been successfully credited to your Gcash wallet on 12-08-25 05:54:54 PM. Ref. No. 516394600
+[2025-12-08 09:57:53] --- Webhook request received ---
+[2025-12-08 09:57:53] SUCCESS: SMS Received! From: TNT | Msg: Sorry for the inconvenience. Service unavailable at this time (transaction not charged). RC:1422
+[2025-12-08 10:14:34] --- Webhook request received ---
+[2025-12-08 10:14:34] SUCCESS: SMS Received! From: TNT | Msg: Nag-expire na ang UNLI 5G DATA mo.                                                                                                                             
+[2025-12-08 10:14:34] --- Webhook request received ---
+[2025-12-08 10:14:34] SUCCESS: SMS Received! From: TNT | Msg: Nag-expire na ang NON-STOP DATA mo.                                                                                                                            
+[2025-12-08 10:14:35] --- Webhook request received ---
+[2025-12-08 10:14:35] SUCCESS: SMS Received! From: TNT | Msg:  Tuloy ang Saya! Load SAYA ALL 99 sa Smart App para UNLI ang fave apps mo at may 6 GB ka pa! Kulang sa budget? May TNT Utang Na Load! Dial *5623# now!
+[2025-12-08 10:15:47] --- Webhook request received ---
+[2025-12-08 10:15:47] SUCCESS: SMS Received! From: TNT | Msg: You're trying to access sites not included in your promo OR haven't subscribed to one yet.                                                                     
+[2025-12-08 10:15:47] --- Webhook request received ---
+[2025-12-08 10:15:47] SUCCESS: SMS Received! From: TNT | Msg:  Stay always connected! Check your balance regularly and stay up-to-date with the latest offers via the Smart App!
+[2025-12-08 10:57:50] --- Webhook request received ---
+[2025-12-08 10:57:50] SUCCESS: SMS Received! From: TNT | Msg: Tuloy ang Saya! May UNLI 5G + NON-STOP 4G DATA ka na for 7 days with UNLI 5G w/ NSD 185. One active subscription allowed at a time.
+[2025-12-08 10:57:52] --- Webhook request received ---
+[2025-12-08 10:57:52] SUCCESS: SMS Received! From: TNT | Msg: 1/2 Hanggang Jan 1, 2026, may Surepresa Raffle tayo! Get a chance to win weekly cash prizes & a grand prize of 2.5 MILLION PESOS. Text SUREPRESA to 5858 to join
+[2025-12-08 10:57:54] --- Webhook request received ---
+[2025-12-08 10:57:54] --- Webhook request received ---
+[2025-12-08 10:57:54] SUCCESS: SMS Received! From: TNT | Msg: 2/2 & load qualified offers to get entries! By texting, you're agreeing to the promo's T&C & Privacy Notice. Visit Surepresa page sa TNTph website for more info
+[2025-12-08 10:57:54] SUCCESS: SMS Received! From: SmartApp | Msg: You earned 9.25 GigaPoints on your promo purchase! Simple. Easy. Smart. Thats the Smart App!
+[2025-12-08 11:25:17] --- Webhook request received ---
+[2025-12-08 11:25:17] SUCCESS: SMS Received! From: DITORewards | Msg: PASKONG TODO-TODO NA! DOBLE ang papremyo, DOBLE ang saya!
+
+Your P50 could win you a BYD SEAL 5 Dynamic or a trip to Netherlands-Belgium-France or the Maldives for two (2). Get FREE raffle entries when you subscribe to select DITO promos until Jan 31, 2026.
+
+Go to the JUST FOR YOU or BUY PROMO sections of the DITO App, or visit any retailer or DITO Experience Store to subscribe!
+
+See https://dito.ph/paskongtodotodoraffle for more details. Per DTI Fair Trade Permit No. FTEB-242406 Series of 2025.
+
+Stop receiving updates by editing your DITO APP notification settings anytime.
+[2025-12-08 15:29:44] --- Webhook request received ---
+[2025-12-08 15:29:44] SUCCESS: SMS Received! From: Shopee | Msg: Enter verification code: 974565, to pay with SPayLater, valid for 15 mins. NEVER share this code with others under any circumstances.
+PW42aWeqbj5
+[2025-12-08 15:31:55] --- Webhook request received ---
+[2025-12-08 15:31:55] SUCCESS: SMS Received! From: Shopee | Msg: Enter verification code: 635805, to pay with SPayLater, valid for 15 mins. NEVER share this code with others under any circumstances.
+PW42aWeqbj5
+[2025-12-10 07:13:53] --- Webhook request received ---
+[2025-12-10 07:13:53] SUCCESS: SMS Received! From: 8080 | Msg: Meron kang 14GB para sa FunALIW pack kasama ng EasySURF! Magagamit mo ito para sa Facebook, YouTube, ML, TikTok, Wild Rift, atbp! Meron ka pang unli texts to all networks, valid for 7 days! Tandaan, pag nag-register uli at pinili ang parehong freebie, ma-e-extend lang ang validity ng iyong 2GB araw-araw. Para sa status ng iyong data at freebie balance, i-access ang GlobeOne app o i-text ang DATA BAL sa 8080.
+[2025-12-10 07:13:53] --- Webhook request received ---
+[2025-12-10 07:13:53] SUCCESS: SMS Received! From: 8080 | Msg: Registered ka na sa EasySURF! Meron kang 3GB pang-internet na may kasamang app freebies para sa mas maraming FunPinoy moments. Valid ito hanggang 2025-12-17 15:13:48.
+[2025-12-10 07:14:26] --- Webhook request received ---
+[2025-12-10 07:14:26] SUCCESS: SMS Received! From: 4438 | Msg: May natanggap kang 1.98 TM Rewards point/s. Ang iyong total points balance ay 35.48. Ang naipon na points sa 2025 ay pwede lamang gamitin hanggang 03/31/2026. I-check ang GlobeOne app para sa mga exciting rewards na pwedeng i-redeem gamit ang points mo.
+[2025-12-10 10:00:13] --- Webhook request received ---
+[2025-12-10 10:00:13] SUCCESS: SMS Received! From: TNT | Msg: Your FREE DATA 3 will expire in 60 minutes.                                                                                                                    
+[2025-12-10 10:00:13] --- Webhook request received ---
+[2025-12-10 10:00:13] SUCCESS: SMS Received! From: TNT | Msg:  Never run out of data. Manage your subscriptions and check out the Smart App for latest offers and MORE!
+[2025-12-11 08:31:19] --- Webhook request received ---
+[2025-12-11 08:31:19] SUCCESS: SMS Received! From: TNT | Msg: Paskong panalo talaga dahil ang ang paborito mong TNT SAYA ALL 149, P135 na lang ngayon!
+
+7 days na kulitan 'to! Enjoy Unli TikTok, FB, Messenger, IG, ML plus may Unli 5G, Unli Calls & Texts at 12 GB pa.
+
+Until Dec 14 lang 'to! Kaya mag-load na sa Smart App, Smart Online Store, *123#, suking tindahan o sa e- wallets!
+[2025-12-12 07:28:54] --- Webhook request received ---
+[2025-12-12 07:28:54] SUCCESS: SMS Received! From: TNT | Msg: May chance kang manalo ng Php 500,000, iPhone 13, o 25 GB ngayong Dec 12-18 sa TNT Surepresa Raffle!
+
+Para makasali: Text "SUREPRESA" to 5858 at abangan ang confirmation. Isang beses lang ito itetext.
+
+Para makakuha ng raffle entries: Load Saya All 50 for 3 raffle entries.
+
+Sa pag-text nito, sumasang-ayon ka at tinatanggap mo ang T&Cs at Privacy Notice ng promo. For more info, visit the Surepresa page sa TNTph website.
+[2025-12-12 09:33:57] --- Webhook request received ---
+[2025-12-12 09:33:57] SUCCESS: SMS Received! From: GLOBE | Msg: Ka-TM, as of 12/12/25 17:33, meron ka pang 100.00MB sa iyong FunALIW.  o i-access ang GlobeOne app para sa latest offers.
+[2025-12-14 03:18:44] --- Webhook request received ---
+[2025-12-14 03:18:44] SUCCESS: SMS Received! From: GLOBE_OTP | Msg: MAG-INGAT. Never click links or share your One-Time PIN (OTP).
+
+This message is for your GlobeOne transaction.
+Your OTP is 863770.
+
+If you did not make this request, please ignore this message.
+[2025-12-14 04:05:42] --- Webhook request received ---
+[2025-12-14 04:05:42] SUCCESS: SMS Received! From: Moneymax | Msg: Apply now! Get P5k e-Gift when approved for a UnionBank Rewards Credit Card via Moneymax. Limited offer! https://bit.ly/4rcSqDc
+No msgs? Text STOP to 225687
+[2025-12-14 22:52:19] --- Webhook request received ---
+[2025-12-14 22:52:19] SUCCESS: SMS Received! From: Casino Plus | Msg: Regalo sa Pasko!Grab 100P bonus now for 48 hrs! Plus P20M Angpao Rain starts at 8PM! And join the P300M Lucky Draw to win amazing prizes at casinoplus.com.ph
+[2026-03-01 01:00:30] --- Webhook request received ---
+[2026-03-01 01:00:30] SUCCESS: SMS Received! From: 8080 | Msg: Papuntang abroad, Ka-TeaM? Isang tip mula sa TM: Kung pupunta ka sa USA, Japan, Australia o Italy, mas magandang gumamit ng phone na may Voice over LTE (VoLTE) setting para mas madaling makagamit ng calls at texts. Walang VoLTE? Walang problema! Pwede ka pa rin manatiling konektado kahit walang VoLTE gamit ang mga messaging apps tulad ng Facebook Messenger, Viber, at WhatsApp. Mag-register lang sa data roaming promo gamit ang GlobeOne app. Ingat sa biyahe!
+[2026-03-13 07:29:05] --- Webhook request received ---
+[2026-03-13 07:29:05] SUCCESS: SMS Received! From: TM | Msg: Walang mapag-load-an ang mga kaibigan or kamag-anak? Pwede natin pagkakitaan 'yan! Buksan ang GlobeOne app at mag-register na sa TM EasyRaket. Sa bawat load na nabenta, may 2% cashback ka agad! Tara na at umpisahan ang pagkita. No advisories? Text OFF to 2686 for free.

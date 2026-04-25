@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMS Order - Tuy PureFlow</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .faq-item {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    .faq-item:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .faq-header {
+      padding: 16px 20px;
+      background-color: #f9fafb;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+    .faq-header:hover {
+      background-color: #f3f4f6;
+    }
+    .faq-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+      padding: 0 20px;
+    }
+    .faq-content.expanded {
+      max-height: 1000px;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+    .faq-icon {
+      transition: transform 0.3s ease;
+    }
+    .faq-item.active .faq-icon {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <img src="images/logo.png" alt="Tuy PureFlow Logo" class="h-10 w-auto">
+          <span class="font-bold text-xl text-blue-600">Tuy PureFlow</span>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="hidden md:flex space-x-8 items-center text-gray-700">
+          <a href="index.html" class="hover:text-blue-600 font-medium">Home</a>
+          
+          <!-- Services Dropdown -->
+          <div class="relative group">
+            <button class="flex items-center gap-1 hover:text-blue-600 font-medium focus:outline-none">
+              Services
+              <span class="transform transition-transform group-hover:rotate-180">▼</span>
+            </button>
+            <div class="absolute left-0 mt-2 w-44 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+              <a href="Consumer/landing_page.php" class="block px-4 py-2 text-sm hover:bg-blue-50">Order Water</a>
+              <a href="distributor/signup.php" class="block px-4 py-2 text-sm hover:bg-blue-50">Distributor Portal</a>
+            </div>
+          </div>
+
+          <a href="sms_order.html" class="text-blue-600 font-medium">SMS Order</a>
+          <a href="about_us.php" class="hover:text-blue-600 font-medium">About Us</a>
+          <a href="contact_us.php" class="hover:text-blue-600 font-medium">Contact Us</a>
+          
+          <!-- Replace the single Sign In button with a dropdown -->
+          <div class="relative group">
+            <button class="ml-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 font-medium flex items-center gap-1 focus:outline-none">
+              Account
+              <span class="transform transition-transform group-hover:rotate-180">▼</span>
+            </button>
+            <div class="absolute right-0 mt-2 w-36 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+              <a href="Consumer/signup.php" class="block px-4 py-2 text-sm hover:bg-blue-50">Sign Up</a>
+              <a href="Consumer/login.php" class="block px-4 py-2 text-sm hover:bg-blue-50">Sign In</a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button class="text-gray-700 focus:outline-none">
+            ☰
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    
+    <!-- Page Title -->
+    <div class="text-center mb-12">
+      <div class="flex items-center justify-center gap-3 mb-4">
+        <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
+          <span class="text-white text-2xl font-bold">?</span>
+        </div>
+        <h1 class="text-4xl font-bold text-gray-900">Frequently Asked Questions</h1>
+      </div>
+    </div>
+
+    <!-- FAQ Items -->
+    <div class="space-y-4">
+      
+      <!-- FAQ Item 1: How do I order through text? -->
+      <div class="faq-item active">
+        <div class="faq-header" onclick="toggleFAQ(this)">
+          <h2 class="text-lg font-semibold text-gray-800">How do I order through text?</h2>
+          <svg class="faq-icon w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </div>
+        <div class="faq-content expanded">
+          <p class="text-gray-700 mb-4">
+            You can place an order by sending a text message to the shop number. Here's how:
+          </p>
+          <ol class="list-decimal list-inside space-y-3 text-gray-700 mb-4">
+            <li class="mb-2">
+              <strong>Find the shop number</strong> (e.g., 09197511005)
+            </li>
+            <li class="mb-2">
+              <strong>Send a text message</strong> with the following format:
+              <ul class="list-disc list-inside ml-6 mt-2 space-y-1">
+                <li>Gallon (quantity): [number]</li>
+                <li>Gallon type (Round Container, Container W/ faucet, Slim Container): [type]</li>
+              </ul>
+            </li>
+          </ol>
+          <div class="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-lg">
+            <p class="font-semibold text-gray-800 mb-2">Example message:</p>
+            <div class="bg-white p-3 rounded border border-blue-200 font-mono text-sm">
+              <p class="text-gray-800">Gallon (quantity): 2</p>
+              <p class="text-gray-800">Gallon type (Round Container, Container W/ faucet, Slim Container): Round Container</p>
+            </div>
+          </div>
+          <p class="text-gray-700 mt-4">
+            The shop will process your order and confirm via text message.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 2: How do I reschedule a delivery? -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFAQ(this)">
+          <h2 class="text-lg font-semibold text-gray-800">How do I reschedule a delivery?</h2>
+          <svg class="faq-icon w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </div>
+        <div class="faq-content">
+          <p class="text-gray-700">
+            To reschedule a delivery, please contact the shop directly through the contact information provided in your order confirmation. 
+            You can also use the order management section in your account to request a reschedule if the option is available.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3: What should I do if my order is delayed? -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFAQ(this)">
+          <h2 class="text-lg font-semibold text-gray-800">What should I do if my order is delayed?</h2>
+          <svg class="faq-icon w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </div>
+        <div class="faq-content">
+          <p class="text-gray-700">
+            If your order is delayed, please contact the shop immediately. You can reach them through the contact information 
+            provided in your order confirmation. The shop will provide updates on the status of your delivery and work to resolve 
+            any issues as quickly as possible.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4: How can I update my delivery address? -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFAQ(this)">
+          <h2 class="text-lg font-semibold text-gray-800">How can I update my delivery address?</h2>
+          <svg class="faq-icon w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </div>
+        <div class="faq-content">
+          <p class="text-gray-700">
+            You can update your delivery address by logging into your account and navigating to the account settings section. 
+            If you need to change the address for an existing order, please contact the shop directly as soon as possible to 
+            ensure the change is processed before delivery.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p>&copy; 2024 Tuy PureFlow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleFAQ(header) {
+      const faqItem = header.closest('.faq-item');
+      const content = faqItem.querySelector('.faq-content');
+      const isActive = faqItem.classList.contains('active');
+
+      // Close all FAQ items
+      document.querySelectorAll('.faq-item').forEach(item => {
+        item.classList.remove('active');
+        item.querySelector('.faq-content').classList.remove('expanded');
+      });
+
+      // If this item wasn't active, open it
+      if (!isActive) {
+        faqItem.classList.add('active');
+        content.classList.add('expanded');
+      }
+    }
+  </script>
+
+</body>
+</html>
+
